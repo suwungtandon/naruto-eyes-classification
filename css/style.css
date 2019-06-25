@@ -1,0 +1,96 @@
+body{
+    font-family:'Ninja Naruto';
+    background: #333;
+}
+
+.titleContainer{
+    overflow: hidden;
+    height: 100px;
+    width : 100%;
+    text-align: center;
+    background: #951;
+    display: table;
+    span {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    p{
+        color: white;
+    }
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #ff9;
+}
+
+h5 {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #ff9;
+}
+
+.imgContainer{
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    align: center;
+}
+
+.resultContainer{
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 35%;
+    text-align: center;
+    display: inline-block;
+}
+
+.inputfile {
+    font-weight: 15px;
+    color: white;
+    background-color: #ccc;
+}
+
+#inimg, #plot {
+    margin: 5%;
+}
+
+.plotly {
+    width: auto;
+    height: 50%;
+}
+
+#plot{
+    font-size: 10px;
+    align: center;
+}
+
+.imgborder{
+    margin: 15%;
+    border : 4px dashed red;
+    min-height: 200px;
+    width: 240px;
+    align: center;
+}
+
+.predictBtn{
+    font-weight: 25px;
+    color: white;
+    background-color: coral;
+    width: 120px;
+    height: 25px;
+    display: inline-block;
+    border: solid 0px coral;
+    cursor: pointer;
+    text-align: center;
+}
+p {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Naruto Eyes classification</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://bhanuchander210.github.io/naruto_eyes_classification/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://bhanuchander210.github.io/naruto_eyes_classification/assets/font/style.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="icon" type="image/jpg" href="https://bhanuchander210.github.io/images/blogo.jpg">
+</head>
+
+<body>
+
+<div class="titleContainer">
+    <h1>Naruto</h1>
+    <h5>Ocular - Power - Classifier</h5>
+</div>
+
+<p>Use Naruto characters Single Eye Images for better prediction !</p>
+
+<div style="display: inline-table;width:100%;">
+<div class="imgContainer">
+    <input id='inputImg' type='file' accept="image/*" onchange="readURL(this);" class="inputfile"/>
+        <div class="imgborder">
+            <img style="display: none" id="inimg" width="220px" height="200px"/>
+        </div>
+</div>
+
+<div class="resultContainer">
+<button onclick="main()" class="predictBtn" id="predictBtn" disabled>Predict</button>
+<div class="plotly" id="plot"><!-- Plotly chart will be drawn inside this DIV --></div>
+</div></div>
+
+<a href="https://github.com/Bhanuchander210"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+
+
+
+<div style="text-align: center; margin-top: 2%;">
+    <h5 style="margin-top: 50px">Chakra - from</h5>
+    <img src="https://static.thenounproject.com/png/1705425-200.png" style="-webkit-filter: invert(1);filter: invert(1);" width="30px">
+    <img src="https://avatars0.githubusercontent.com/u/15658638?s=200&v=4" width="30px">
+    <img src="https://avatars2.githubusercontent.com/u/5997976?s=200&v=4" width="30px">
+    <img src="https://www.cufonfonts.com/favicon.ico" width="30px">
+</div>
+
+<script src="https://bhanuchander210.github.io/naruto_eyes_classification/js/predict.js"></script>
+</body>
+</html>
